@@ -1,0 +1,195 @@
+*{
+	box-sizing: border-box;
+}
+
+/*this is the landing page*/
+
+.land{
+	font-family: arial;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-image: url(../images/lappi.jpg);
+	background-repeat: no-repeat;
+	background-size: 90em 40em;	
+	height: 39em;
+	}
+
+button{
+	font-size: 20px;
+	border-radius: 5px;	
+}
+
+button a{
+	color: black;
+	text-decoration: none;
+}
+
+.land h2, button{
+	transform: skewX(-25deg);
+}
+
+.land h2{
+	color: chocolate;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+
+ /*styling of the header*/
+h1{
+	text-align: center;
+	background-color:#884EA0;
+	height: 150px
+	color: chocolate;
+	font-family: arial;
+	padding: 10px;
+}
+
+/*styling for body*/
+.row{
+  	background-color: violet;
+  	margin-top: -22px;
+  }
+
+  .side .coln2 .coln3 {
+    width: 100%;  
+  }
+ 
+  li a{
+ 	text-decoration: none;
+  }
+
+ }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+	h1{
+		background-color: #EFFD5F;
+		color: chocolate;
+	}
+
+	.row{
+        display: flex;
+        flex-direction: row;
+		background-image: url(../images/tech.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;	
+        width: 100%;
+	}
+
+	.side  {	
+	    width: 45%;
+   }
+
+   li a{
+   	color: gold;
+   }
+
+   .cols{
+   	width:45%;
+   	padding-left: 10px;
+   }
+
+ul{
+	list-style-type: disc;
+
+}
+
+li {
+	padding-top: 20px;
+	padding: 5px;
+}
+
+li a {
+	text-decoration: none;
+
+}
+
+
+/*Medium devices (landscape tablets, 768px and up)*/ 
+@media only screen and (min-width: 768px) {
+	h1{
+		background-color: #1B4F72;
+		color: chocolate;
+		height: 80px;
+		text-align: center;
+		padding-top: 20px;
+	}
+
+	.row{
+	display: flex;
+	flex-direction: row;
+	margin-top: -22px;
+	color: #F8F9F9;
+	background-image: url(../images/top.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;	
+	
+}
+
+li a {
+	text-decoration: none;
+	color: chocolate;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+h1{
+	background-color:purple;
+	height: 80px; 
+	text-align: center;
+	padding-top: 20px;
+}
+
+.row{
+	background-image: url(../images/tec.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: black;
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+	margin-top: -22px; 	
+}
+
+.side{
+	width: 25%;
+	padding-left: 20px;
+	color: chocolate; 
+}
+
+ul{
+	list-style-type: square;
+	padding-left: 100px;
+}
+
+li {
+	padding-top: 20px;	
+}
+
+li a {
+	text-decoration: none;
+	color: #F0F3F4 ;
+}
+
+.cols{
+	display: flex;
+	width: 75%;	
+}
+
+.coln2{
+	width: 45%;
+	padding-left:20px;
+}
+
+.coln3{
+		width: 45%;
+		padding-left:20px;
+        padding-bottom: 10em;
+	}
+
+
