@@ -80,3 +80,9 @@ footer{
 		width: 100%;
 	}
 }
+
+@media screen and (max-width: 992px) {
+  	.aside-left,main,.aside-right {
+		width: 100%;
+	}
+}
